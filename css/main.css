@@ -1294,7 +1294,7 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(../images/Flythrough.jpeg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1305,7 +1305,18 @@ header .logo a {
 	display: table;
 	position: relative;
 	text-align: center;
+	transition: 1s opacity;
 }
+
+/* .video {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	position: relative;
+	object-fit: cover;
+  }
+   */
 .intro-overlay {
 	position: absolute;
 	top: 0;
