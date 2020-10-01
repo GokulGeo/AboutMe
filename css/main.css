@@ -1308,15 +1308,15 @@ header .logo a {
 	transition: 1s opacity;
 }
 
-/* .video {
+.video {
 	object-fit: cover;
-	width: 100vw;
-	height: 100vh;
-	position: fixed;
-	position: relative;
+	width: 100%;
+	top: 0;
+	left:0;
+	position: absolute;
 	object-fit: cover;
   }
-   */
+  
 .intro-overlay {
 	position: absolute;
 	top: 0;
